@@ -1,0 +1,91 @@
+/*home*/
+
+#name, #about-me, #nav{
+	padding: 2%;
+}
+
+#name{
+	font-size: 2.5em;
+	border-bottom: 1px solid #1c4966;
+	text-align: center;
+	color: #1c4966;
+}
+
+#about-me{
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	font-size: 18px;
+	padding: 2px;
+	color: #555555;
+}
+
+/*profile*/
+
+.skill-title, .experience-type {
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px 0px 20px;
+    border-bottom: 1px inset darkslategrey;
+}
+
+.experience-type i {
+    margin-right: 10px;
+}
+
+.progressBar {
+    display: flex;
+    margin: 8px 5px;
+}
+
+.progressBar label {
+    width: 50%;
+}
+
+.progressBar progress {
+    width: 35%;
+    appearance: none;
+}
+
+.experience-title {
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+.institution-link a{
+    font-style: italic;
+    color: #252525;
+}
+
+.job-experience-sub-cont, .academic-experience-sub-cont, .certificate-sub-cont, .achievements-sub-cont, .extra-curricular-activities-sub-cont {
+    padding-bottom: 10px;
+}
+
+.skill-sub-cont a {
+    text-decoration: none;
+    font-style: italic;
+    color: #e5e5e5;
+}
+
+/*projects*/
+
+.project-desc-cont > ul {
+    list-style-type: none;
+}
+
+.project-tech > ul{
+    list-style-type: square;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Contacts*/ 
+#contact-container {
+    font-size: 18px;
+	color: #777777;
+}

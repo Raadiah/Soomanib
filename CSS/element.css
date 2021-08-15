@@ -1,0 +1,30 @@
+* {
+	font-family: Lato, sans-serif;
+    min-height: fit-content;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    background-color: rgb(201 234 225);
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+nav {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 4px;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 4px;
+    background-color: rgb(57, 166, 185);
+}

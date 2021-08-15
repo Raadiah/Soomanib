@@ -1,0 +1,43 @@
+#nav span{
+	font-size: 18px;
+	padding: 2px;
+	color: #777777;
+	margin: 2%;
+}
+
+#nav span:hover{
+	cursor: pointer;
+}
+
+#nav i {
+    font-size: 25px;
+    margin: 0px 15px;
+    color: cadetblue;
+}
+
+#nav :hover {
+    color:rgb(81, 95, 124);
+}
+
+#nav i:hover {
+    cursor: pointer;
+}
+
+#navbar {
+    height: 100px;
+    background-color: black;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}
+
+#navbar i {
+    color: #fff;
+    font-size: 25px;
+    margin: 20px;
+}
+
+#navbar i:hover {
+    color: skyblue;
+    cursor: pointer;
+}
